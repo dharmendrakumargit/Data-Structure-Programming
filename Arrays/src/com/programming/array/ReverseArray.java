@@ -1,5 +1,8 @@
 package com.programming.array;
 
+// Author Dharmendra Kumar 
+// 19 July 2020
+
 public class ReverseArray {
 
 	public static int[] reverseArray(int arr[]) {
@@ -25,6 +28,18 @@ public class ReverseArray {
 		arr = reverseArray(arr);
 		System.out.println("Print After Reversing The Array");
 		printArray(arr);
+		//--------------  out Put ---------------------
+		/*
+		
+		
+		Print Before Reversing The Array
+		4 8 2 12 5 1 7 6 
+		Print After Reversing The Array
+		6 7 1 5 12 2 8 4  
+		
+		*/
+		
+		//------------------------------------------------
 
 	}
 
