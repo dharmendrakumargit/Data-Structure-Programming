@@ -2,6 +2,11 @@ package com.programming.array;
 
 import java.util.Arrays;
 
+//Author @ Dharmendra Kumar 21 july 2020
+
+/*  Given an array of integers, print the array in such a way that 
+    the first element is first maximum and second element is first minimum and so on. */
+
 public class AlternateSorting {
 
 	public static int[] rearrangeArray(int arr[]) {
