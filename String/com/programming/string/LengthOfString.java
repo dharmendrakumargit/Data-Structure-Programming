@@ -2,7 +2,7 @@ package com.programming.string;
 /* Author Dharmendra Kumar 
 20  Feb 2021
 
-Find length of string without inbuild method
+Find length of string without using inbuild method
 */
 
 public class LengthOfString {
@@ -21,7 +21,6 @@ public class LengthOfString {
 			}
 		} catch (Exception e) {
 		}
-
 		return i;
 	}
 	
