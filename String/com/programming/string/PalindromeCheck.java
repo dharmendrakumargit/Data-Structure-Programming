@@ -3,10 +3,9 @@ package com.programming.string;
 /* Author Dharmendra Kumar 
    20  Feb 2021
 
-   Write a program to check whether given String is Palindrome or Not  ?
+   Write a program in java to check whether given String is Palindrome or Not  ?
 
 */
-
 public class PalindromeCheck {
 	public static void main(String[] args) {
 		String str = "madam";
