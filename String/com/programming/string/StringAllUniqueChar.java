@@ -30,9 +30,8 @@ public class StringAllUniqueChar {
 		return true;
 	}
 
-	// Approach 2
-	// If Hashset's add method return false,that means it is already present in
-	// HashSet
+	 // Approach 2
+	// If Hashset's add method return false,that means it is already present in HashSet
 	public static boolean hasAllUniqueChar_(String str) {
 
 		char ch[] = str.toCharArray();
