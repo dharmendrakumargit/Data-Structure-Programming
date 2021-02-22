@@ -1,9 +1,9 @@
 package com.programming.string;
 
 /* Author Dharmendra Kumar 
-22  Feb 2021
+   22  Feb 2021
 
-How to check if String has all unique characters in java
+   How to check if String has all unique characters in java
 */
 
 import java.util.HashSet;
@@ -16,7 +16,7 @@ public class StringAllUniqueChar {
 		System.out.println(hasAllUniqueChar(str));
 		System.out.println(hasAllUniqueChar_(str));
 	}
-	
+
 	// Approach 1
 	public static boolean hasAllUniqueChar(String str) {
 
@@ -29,9 +29,10 @@ public class StringAllUniqueChar {
 		}
 		return true;
 	}
-	
+
 	// Approach 2
-	// If Hashset's add method return false,that means it is already present in HashSet
+	// If Hashset's add method return false,that means it is already present in
+	// HashSet
 	public static boolean hasAllUniqueChar_(String str) {
 
 		char ch[] = str.toCharArray();
