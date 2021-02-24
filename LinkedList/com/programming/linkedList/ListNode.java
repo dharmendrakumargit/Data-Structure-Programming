@@ -1,4 +1,4 @@
-package com.programming.string;
+package com.programming.linkedList;
 /* Author Dharmendra Kumar 
    24  Feb 2021
 
@@ -14,11 +14,9 @@ public class ListNode {
 		this.data = data;
 		this.next = null;
 	}
-	
-	
 
 	public static void main(String[] args) {
-		// new ListNode(1);
+		// new ListNode(1); 
 
 	}
 
